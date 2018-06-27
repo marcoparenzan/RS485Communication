@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RS485Communication", "RS485Communication\RS485Communication.csproj", "{D7EEC50F-7BB2-4A58-8DCD-244C2120A377}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{18F2048B-8F21-42EC-A20B-589B3F789BD5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{D7EEC50F-7BB2-4A58-8DCD-244C2120A377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EEC50F-7BB2-4A58-8DCD-244C2120A377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EEC50F-7BB2-4A58-8DCD-244C2120A377}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18F2048B-8F21-42EC-A20B-589B3F789BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18F2048B-8F21-42EC-A20B-589B3F789BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18F2048B-8F21-42EC-A20B-589B3F789BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18F2048B-8F21-42EC-A20B-589B3F789BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

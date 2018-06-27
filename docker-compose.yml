@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  rs485communication:
-    image: ${DOCKER_REGISTRY}rs485communication
-    build:
-      context: .
-      dockerfile: RS485Communication/Dockerfile
