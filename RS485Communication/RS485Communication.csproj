@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.IO.Ports" Version="4.5.0" />
+    <PackageReference Include="SerialPortStream" Version="2.1.4" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RS485Communication": {
+      "commandName": "Project",
+      "commandLineArgs": "COM13"
+    }
+  }
+}

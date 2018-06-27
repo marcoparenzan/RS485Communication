@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RJCP.IO.Ports;
+using System;
 using System.IO.Ports;
 using System.Text;
 using System.Threading;
@@ -12,7 +13,10 @@ namespace RS485Communication
     {
         static async Task Main(string[] args)
         {
-            var port = new SerialPort("/dev/ttyUSB0", 57600, Parity.None, 8, StopBits.One);
+            WriteLine("RS485Master");
+            WriteLine($"Opening on {args[0]} port");
+
+            var port = new SerialPortStream(args[0], 57600, 8, Parity.None, StopBits.One);
             port.DataReceived += (s, e) => {
                 var buffer = new byte[port.BytesToRead];
                 var read = port.Read(buffer, 0, buffer.Length);
