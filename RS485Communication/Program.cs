@@ -35,8 +35,8 @@ namespace RS485Communication
             };
             port.Open();
 
-            var requestT0 = new byte[] { 0, 2 };
-            var requestT1 = new byte[] { 1, 2 };
+            var requestT0 = new byte[] { 0, 2, 2 };
+            var requestT1 = new byte[] { 1, 2, 2 };
 
             try
             {

@@ -2,7 +2,7 @@
   "profiles": {
     "RS485Communication": {
       "commandName": "Project",
-      "commandLineArgs": "COM13"
+      "commandLineArgs": "COM3"
     }
   }
 }
